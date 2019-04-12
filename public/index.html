@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <head>
+        <title>Computer Sensors</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="sensors.js"></script>
+        <style>
+            div {
+                margin-bottom: 20px;
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            th, td {
+                text-align: left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Computer Sensors</h1>
+        <div id="cpus">
+            <table id="cpu-sensors"; style="width:100%">
+                <caption>CPUs</caption>
+                <tr>
+                    <th width="80%">Name</th>
+                    <th width="20$">Value</th>
+                </tr>
+            </table>
+        </div>
+
+        <div id = "motherboard">
+            <table id="mobo-sensors"; style="width:100%">
+                <caption>Motherboard</caption>
+                <tr>
+                    <th width="80%">Name</th>
+                    <th width="20$">Value</th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="gpus">
+            <table id="gpu-sensors"; style="width:100%">
+                <caption>GPUs</caption>
+                <tr>
+                    <th width="80%">Name</th>
+                    <th width="20$">Value</th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="disks">
+            <table id="disk-sensors"; style="width:100%">
+                <caption>Disks</caption>
+                <tr>
+                    <th width="80%">Name</th>
+                    <th width="20$">Value</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
